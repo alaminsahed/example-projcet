@@ -1,1 +1,1 @@
-<p>This project for learning and self research purpose</p>
+<p>This project is for learning and self-research purpose</p>
