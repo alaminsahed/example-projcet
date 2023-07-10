@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 export async function connect() {
+  console.log("Connecting to MongoDB...");
   try {
     mongoose.connect(process.env.MONGO_URL!);
     const connection = mongoose.connection;
