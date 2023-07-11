@@ -39,7 +39,6 @@ const UserProfile = () => {
             <div>
                 <button onClick={logOutHandler} className="border border-white p-3 rounded">LogOut</button>
             </div>
-            <h1>hello profile</h1>
             <div className="flex flex-col items-center justify-center">
                 {
                     user.map((item, index) => {
