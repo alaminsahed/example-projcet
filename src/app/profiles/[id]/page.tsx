@@ -1,9 +1,9 @@
 import React from 'react';
 
-const userProfile = () => {
+const userProfile = ({ params }) => {
     return (
-        <div>
-            <h1>hello user profile</h1>
+        <div className="flex flex-col justify-center items-center mt-5">
+            <h1>{params.id}</h1>
         </div>
     );
 };
